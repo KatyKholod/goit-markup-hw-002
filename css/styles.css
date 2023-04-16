@@ -83,6 +83,12 @@ body {
     color: var(--color-navy-blue);
 }
 
+.contact-link {
+    font-weight: 500;
+    font-style: normal;
+    color: var(--color-slate);
+}
+
 .nav-link:hover,
 .nav-link:focus {
     color: var(--color-ocean);
@@ -90,6 +96,7 @@ body {
 
 .header-contacts {
     font-style: normal;
+
     color: var(--color-slate);
 }
 
@@ -220,6 +227,7 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -257,11 +265,17 @@ body {
     cursor: pointer;
 }
 
+.btn-all {
+    background-color: var(--color-cloud);
+}
+
 .filter-btn:hover,
 .filter-btn:focus {
     background-color: var(--color-ocean);
     color: var(--color-white);
 }
+
+
 
 .portfolio-list {}
 
@@ -269,6 +283,8 @@ body {
 
 .portfolio-img {}
 
-.portfolio-desc {}
+.portfolio-desc {
+    color: var(--color-slate);
+}
 
 .portfolio-view {}
