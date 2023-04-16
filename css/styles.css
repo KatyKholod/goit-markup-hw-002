@@ -90,7 +90,10 @@ body {
 }
 
 .nav-link:hover,
-.nav-link:focus,
+.nav-link:focus {
+    color: var(--color-ocean);
+}
+
 .contact-link:hover,
 .contact-link:focus {
     color: var(--color-ocean);
