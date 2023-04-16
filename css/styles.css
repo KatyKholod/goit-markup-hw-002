@@ -38,6 +38,10 @@ body {
     list-style: none;
 }
 
+.link {
+    text-decoration: none;
+}
+
 
 .visually-hidden {
     position: absolute;
@@ -73,19 +77,18 @@ body {
     color: var(--color-navy-blue);
 }
 
-.link {
+.nav-link {
     font-weight: 500;
-    text-decoration: none;
     font-style: normal;
-    color: inherit;
+    color: var(--color-navy-blue);
 }
 
-.link:hover,
-.link:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: var(--color-ocean);
 }
 
-.header-contacts-item {
+.header-contacts {
     font-style: normal;
     color: var(--color-slate);
 }
@@ -132,9 +135,12 @@ body {
 */
 
 .title {
+    color: var(--color-navy-blue);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
     letter-spacing: 0.02em;
 }
 
@@ -208,7 +214,7 @@ body {
     background-color: var(--color-bgd);
 }
 
-.footer-link {
+.footer-logo {
     color: var(--color-iris);
     font-family: var(--secondary-font);
     font-weight: 800;
@@ -242,6 +248,7 @@ body {
 .filter-item {}
 
 .filter-btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
