@@ -64,6 +64,7 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -73,6 +74,7 @@ body {
 }
 
 .link {
+    font-weight: 500;
     text-decoration: none;
     font-style: normal;
     color: inherit;
@@ -82,6 +84,12 @@ body {
 .link:focus {
     color: var(--color-ocean);
 }
+
+.header-contacts-item {
+    font-style: normal;
+    color: var(--color-slate);
+}
+
 
 /**
   |============================
@@ -98,10 +106,13 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--color-white);
+    text-align: center;
 }
 
 .btn {
     font-weight: 500;
+    font-family: inherit;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--color-white);
@@ -137,6 +148,10 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue);
+}
+
+.desc {
+    color: var(--color-slate);
 }
 
 
