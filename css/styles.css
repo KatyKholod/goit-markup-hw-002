@@ -94,6 +94,11 @@ body {
     color: var(--color-ocean);
 }
 
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--color-ocean);
+}
+
 .header-contacts {
     font-style: normal;
 
@@ -257,16 +262,13 @@ body {
 
 .filter-btn {
     font-family: inherit;
+    background-color: var(--color-cloud);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--color-iris);
     cursor: pointer;
-}
-
-.btn-all {
-    background-color: var(--color-cloud);
 }
 
 .filter-btn:hover,
